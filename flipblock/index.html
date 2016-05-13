@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>flipblock</title>
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- easy pie chart -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="jquery.easypiechart.min.js"></script>
+</head>
+<body>
+<div class="container-fluid" style="padding:0px;" id="home">
+<div class="col-md-12" style="background-image:url(http://localhost:88/flipblock/img/FLIPBLOCK-main.png); height:500px;">
+<nav class="navbar navbar col-md-12">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilemenu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <span><img src="http://localhost:88/flipblock/img/logo.png" id="logo_img"> </span>
+    </div>
+    <div class="visible-lg visible-md hidden-sm hidden-xs" id="myNavbar">
+	 <ul class="nav navbar-nav navbar-right">
+      <li><button id="nav_demo_btn" class="btn btn-default btn-sm " style="outline:none;"> Request a Demo</button></li>
+	  <li><button id="signin_btn" class="btn btn-default btn-sm " style="outline:none;">Sign in</button></li>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#customer_div">Customers</a></li> 
+      <li><a href="#contact_us_div">Blog</a></li> 
+    </ul>
+	</div>
+	<div class="hidden-lg hidden-md collapse" id = "mobilemenu">
+	 <ul class="nav navbar-nav navbar-right">
+      <li><button id="nav_demo_btn" class="btn btn-default btn-sm " style="outline:none;"> Request a Demo</button></li>
+	  <li><button id="signin_btn" class="btn btn-default btn-sm " style="outline:none;">Sign in</button></li>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#customer_div">Customers</a></li> 
+      <li><a href="#contact_us_div">Blog</a></li> 
+    </ul>
+	</div>
+
+  </div>
+</nav>
+<div id="div_topic" class="col-md-12 col-sm-12 col-xs-12"><h1 id="header_topic">Transform Your Digital Campaigns</h1>
+<h4>Create Bountiful Branded Landing Apps to Engage and <br>
+Convert Visitor Into Costumers
+</h4>
+<div id="request_demo_btn" class="col-md-12 col-sm-12 col-xs-12"><button id="request_btn" class="btn btn-default btn-lg outline">Request a Demo Now</button></div>
+</div>
+
+</div>
+<div id="defintion_div" class="col-md-12"><h3>Flipblock is a customer engagement platform for brands to interact with users through
+powerful digital campaigns powered by mobile optimized landing apps. </h3></div>
+<!-- features part -->
+<div id="features" class="col-md-12 col-sm-12 col-xs-12">
+<div id="feature_1" class="col-md-3 col-sm-12 col-xs-12 text-center">
+<div><img class="featurs_img" src="http://localhost:88/flipblock/img/FLIPBLOCK1.png"></div>
+<h4 class="feature_h4">Create an App for Every Occasion</h4>
+<p class="feature_p">Build branded landed apps specially tailored to amplify
+the goals of every campaign.Our apps are powerful and fast and can be shared easily via a link without need for installation </p>
+</div>
+<div id="feature_2" class="col-md-3 text-center">
+<img class="featurs_img" src="http://localhost:88/flipblock/img/FLIPBLOCK2.png">
+<h4 class="feature_h4">Engage Customer with Branded Content</h4>
+<p class="feature_p">Take advantage of powerful tools to engage users via rich blocks loaded with content.
+Fully engage customers with your brand using interactive content and dynamic multimedia.
+ </p>
+</div>
+<div id="feature_3" class="col-md-3 text-center">
+<img class="featurs_img" src="http://localhost:88/flipblock/img/FLIPBLOCK3.png">
+<h4 class="feature_h4">Aggregate User Data Across all Channels</h4>
+<p class="feature_p">By directing user across all channels to one landed app, you will gain a better holistic view of your customers.Analyzing every thing you need to know from to fully understand the path to conversion </p>
+</div>
+<div id="feature_4" class="col-md-3 text-center">
+<img class="featurs_img" src="http://localhost:88/flipblock/img/FLIPBLOCK4.png">
+<h4 class="feature_h4">Optimize Strategies to Boost Convention Rate </h4>
+<p class="feature_p">Optimize the effectiveness of each campaign by monitoring conversion rate across channels,optimizing content based on user interaction and using A/B testing to see what is working and what is not. </p>
+</div>
+</div>
+<!-- our customer part -->
+<div id="customer_div" class="col-md-12 col-sm-12 col-xs-12">
+<div align="center" style="padding-top:10px;padding-bottom:20px"><h1 style="font-weight:bold;">Our Customers</h1></div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+
+<div  class="col-md-4 col-sm-12 col-xs-12 pie-chart" style="padding-bottom:50px;">
+	<div align="center" style="padding = 20px 0px 20px 0px;">
+	<span class="chart chart_1" data-percent="15" style="margin-right:55px;">
+	<span class="percent percent1"></span><br>
+	<span class="span_content content_1">Conversion Rate</span>
+	</span>
+	</div>
+</div>
+<div class="col-md-4 col-sm-12 col-xs-12 pie-chart" style="padding-bottom:50px;">
+	<div align="center" style="padding = 20px 0px 20px 0px;">
+	<span class="chart chart_2" data-percent="250" style="margin-right:55px;">
+	<span class="percent percent2"></span><br>
+	<span class="span_content content_2">More Conversions</span>
+	</span>
+	</div> 
+</div>
+<div class="col-md-4 col-sm-12 col-xs-12 pie-chart" style="padding-bottom:50px;">
+	<div align="center " style="padding = 20px 0px 20px 0px;">
+	<span class="chart chart_3" data-percent="800" style="margin-right:55px;">
+	<span class="percent percent3"></span><br>
+	<span class="span_content content_3">More Engagement</span>
+	</span>
+</div>
+	</div>
+</div>
+	</div>
+<div class="col-md-12 col-sm-12 col-xs-12" id="customer_inner_div"><div align="center" style="padding:20px;"><h2 style="font-weight:bold">Transform Your Digital Marketing Campaign Now</h2></div>
+<div id="try_btn_div" class="col-md-12 col-sm-12 col-xs-12" ><button id="try_btn" class="btn btn-default btn-lg outline">Try <span><img src="http://localhost:88/flipblock/img/logo.png" style="width:100px;height:auto;"></span> Now</button></div>
+</div>
+<hr id="hr_tag">
+<!-- Blog-part  -->
+<div class="col-md-12 col-sm-12 col-xs-12" id="contact_us_div">
+<div class="col-md-4 col-sm-12 col-xs-12"><div id="logo_div" ><span><img src="http://localhost:88/flipblock/img/logo.png" style="width:200px;height:auto;"> </span></div></div>
+<div class="col-md-5 col-sm-12 col-xs-12" style="padding:30px;">
+<div class = "col-md-6 col-sm-6 col-xs-6 no-padding" >
+<div id="links_div">
+<a>REQUEST A DEMO </a>
+<a id="a_blog">BLOG</a>
+<a>SERVICES</a>
+</div>
+</div>
+<div class = "col-md-6 col-sm-6 col-xs-6 no-padding" >
+<div id="links_div">
+<a id="a_customer">CUSTOMERS</a>
+<a>FEATURES</a>
+<a id="a_contacts">CONTACT US</a>
+</div>
+</div>
+
+</div>
+<!-- contact us  .. -->
+<div  class="col-md-3 col-xs-12 col-sm-12">
+<div  id="stay_in_touch_div">
+<div><h3 for="email" style=" font-weight: bold;">STAY IN TOUCH</h3></div>
+<div id="email_div">
+<input type="email" class="form-control" id="email" placeholder="Email address" ></input><br>
+<input type="image" src="img/FLIPBLOCKmail.png" name="saveForm" class="btTxt submit" id="img_btn" />  
+  </div>
+  </div>
+  </div>
+
+  </div>
+
+<div class="col-md-12 col-sm-12 col-xs-12" id="copy_right_div"><div align="left" style="margin-left:50px;"><h5 id="copy_right">CopyRight <span class="glyphicon glyphicon-copyright-mark"></span> 2016 InnerChip | All Right Reserved | Privacy Policy Terms of Services </h5></div></div>
+</div>
+</body>
+<script>
+        $(function() {
+		//chart 1
+		$('.chart_1').easyPieChart({
+			barColor: function(){
+				return "rgb(105,189,69)";
+			},
+			animate: 5000,
+			lineCap: 'square',
+			scaleColor: false,
+			lineWidth: 6,
+			size: 200,
+			onStep: function(from, to, percent) {
+				$(this.el).find('.percent').text(Math.round(percent));
+			}
+		});
+				//chart2
+			$('.chart_2').easyPieChart({
+			barColor: function(){
+				return "rgb(63,119,188)";
+			},
+			animate: 5000,
+			lineCap: 'square',
+			scaleColor: false,
+			lineWidth: 6,
+			size: 200,
+			
+			onStep: function(from, to, percent) {
+				$(this.el).find('.percent').text(Math.round(percent));
+			}
+		});
+			//chart3			
+			$('.chart_3').easyPieChart({
+			barColor: function(){
+				return "rgb(48,84,114)";
+			},
+			animate: 5000,
+			lineCap: 'square',
+			scaleColor: false,
+			lineWidth: 6,
+			size: 200,
+			onStep: function(from, to, percent) {
+				$(this.el).find('.percent').text(Math.round(percent));
+			}
+		});
+		var chart = window.chart = $('.chart').data('easyPieChart');
+		$('.js_update').on('click', function() {
+			chart.update(Math.random()*200-100);
+		});
+		//to scroll down when click on menu item
+		$('ul.nav').find('a').click(function(){
+		console.log("clicked");
+		var $href=$(this).attr('href');
+		console.log($href);
+		var $anchor=$($href).offset();
+		console.log($anchor);
+		//window.scrollTo($anchor.left,$anchor.top);
+		$('body').animate({scrollTop:$anchor.top},1200);
+		return false;
+		});
+	});
+
+</script>
+</html>
